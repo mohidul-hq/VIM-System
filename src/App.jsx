@@ -400,7 +400,8 @@ function App() {
                 <select name="Vehicle_Type" value={form.Vehicle_Type} onChange={handleFormChange} className="w-full mt-1 px-4 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-200 transition-all duration-200">
                   <option>Two Wheeler</option>
                   <option>Four Wheeler</option>
-                  <option>Other</option>
+                  <option>Commercial </option>
+                  <option>Others</option>
                 </select>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
