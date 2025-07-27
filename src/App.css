@@ -1,0 +1,15 @@
+@import "tailwindcss";
+.animated-car {
+  display: inline-block;
+  animation: car-bounce 5.2s infinite alternate cubic-bezier(.5,1.5,.5,1);
+}
+
+@keyframes car-bounce {
+  0% { transform: translateY(0); }
+ 
+  
+
+  
+  85% { transform: translateY(-3px); }
+  
+}
